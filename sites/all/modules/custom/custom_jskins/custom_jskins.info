@@ -1,0 +1,8 @@
+; $Id: custom jskins
+name = Custom jSkins
+description = Provides an interface to custom skins for jCarousel
+package = User interface
+core = 7.x
+dependencies[] = jcarousel
+
+version = "7.x-1.0-beta"

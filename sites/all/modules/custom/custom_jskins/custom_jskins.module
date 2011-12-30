@@ -1,0 +1,13 @@
+<?php
+
+/**
+ * Implements hook_jcarousel_skin_info().
+ */
+function custom_jskins_jcarousel_skin_info() {
+  $skins['renovations'] = array(
+    'title' => t('Renovations'),
+    'file' => 'jcarousel/skins/renovations/jcarousel-renovations.css',
+  );
+
+  return $skins;
+}
